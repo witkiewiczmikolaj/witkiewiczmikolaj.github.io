@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <path d="M0 60 
+             C50 0, 100 120, 150 60 
+             S300 120, 450 60 
+             S600 0, 750 60 
+             S900 120, 1050 60 
+             S1200 0, 1200 60 
+             V0 
+             H0 
+             Z"   fill="#85FF00"/>
+</svg>
