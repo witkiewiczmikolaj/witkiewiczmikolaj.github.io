@@ -61,35 +61,10 @@
     
     <section id="news" class="news-section">
         <div class="news-title">
-            <a href="news.html">Aktualności</a>
+            <h1>Aktualności</h1>
         </div>
-        <div class="news">
-            <div class="news-item">
-                <img src="src/img/1.jpg" alt="News 1">
-                <h3>17 grudnia 2023</h3>
-                <p>PDP – część 7: Zgadnij, gdzie jest brama, a gdzie ściana….?</p>
-                <form action="index.html">
-                    <input type="submit" value="Więcej" />
-                </form>
-            </div>
-    
-            <div class="news-item">
-                <img src="src/img/2.jpg" alt="News 2">
-                <h3>7 listopada 2023</h3>
-                <p>Agregat prądotwórczy w domu pasywnym</p>
-                <form action="index.html">
-                    <input type="submit" value="Więcej" />
-                </form>
-            </div>
-    
-            <div class="news-item">
-                <img src="src/img/3.jpg" alt="News 3">
-                <h3>29 października 2023</h3>
-                <p>Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”</p>
-                <form action="index.html">
-                    <input type="submit" value="Więcej" />
-                </form>
-            </div>
+        <div class="news" id="news-container">
+            <!-- News items will be populated here dynamically -->
         </div>
         
         <div class="wave-shape-news2"></div>
@@ -97,34 +72,41 @@
         <div class="wave-shape-news"></div>
     </section>
 
-    <section id="featured" class="featured-section">
-        <img src="src/img/kierownik.jpg" alt="Kierownik">
-        <div class="featured-text">
-            <h1>MENEDŻER BUDOWY RADZI</h1>
-            <form action="index.html">
-                <input type="submit" value="Cykl filmowy" />
-            </form>
-        </div>
-        <div class="wave-shape-featured"></div>
-        <div class="wave-shape-featured2"></div>
-        <div class="wave-shape-featured3"></div>
-    </section>
-
-    <section id="contact" class="contact-section">
-        <div class="wave-shape-contact"></div>
-        <div class="contact-text">
-            <h2>Skontaktuj się z nami</h2>
-            <p>Telefon: 790 210 215</p>
-            <p>Telefon: 697 770 252</p>
-            <p>Email: biuro@budujedomypasywne.pl</p>
-            <br>
-            <b>Firma Buduję Domy Pasywne</b>
-            <p>ul. Leśnego Runa 6, 86-032 NIEMCZ</p>
-            <p>NIP: 669-112-40-37</p>
-            <p>REGON: 330425729</p>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.986406717645!2d18.0426336!3d53.182223699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470311197a5e37d3%3A0x53356b15609ec992!2sLe%C5%9Bnego%20Runa%206%2C%2086-032%20Niemcz!5e0!3m2!1spl!2spl!4v1706539664381!5m2!1spl!2spl" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </section>
 </body>
 
 </html>
+
+<script>
+    // script.js
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Fetch and parse the JSON data
+    fetch('news.json')
+        .then(response => response.json())
+        .then(data => {
+            // Reference to the news container
+            const newsContainer = document.getElementById('news-container');
+
+            // Loop through the data and create HTML elements for each news item
+            data.forEach(newsItem => {
+                const newsItemElement = document.createElement('div');
+                newsItemElement.className = 'news-item';
+
+                newsItemElement.innerHTML = `
+                    <img src="${newsItem.image}" alt="${newsItem.title}">
+                    <h3>${newsItem.date}</h3>
+                    <p>${newsItem.title}</p>
+                    <form action=${newsItem.link}>
+                        <input type="submit" value="Więcej" />
+                    </form>
+
+                `;
+
+                // Append the news item to the news container
+                newsContainer.appendChild(newsItemElement);
+            });
+        })
+        .catch(error => console.error('Error fetching news data:', error));
+});
+
+</script>

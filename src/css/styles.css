@@ -39,7 +39,7 @@ header img {
     left: 0;
     width: 100%;
     height: 210px; /* Adjust the height of the wave */
-    background: url('../svg/wave-test.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
+    background: url('../svg/wave-anim.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
     /* transform: scaleY(-1); /* Flip the wave vertically*/
 }
 
@@ -49,7 +49,7 @@ header img {
     left: 0;
     width: 100%;
     height: 190px; /* Adjust the height of the wave */
-    background: url('../svg/wave-test.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
+    background: url('../svg/wave-anim.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
     /* transform: scaleY(-1); /* Flip the wave vertically*/
     opacity: 30%;
 }
@@ -60,7 +60,7 @@ header img {
     left: 0;
     width: 100%;
     height: 190px; /* Adjust the height of the wave */
-    background: url('../svg/wave-test.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
+    background: url('../svg/wave-anim.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
     transform: scaleY(-1); /* Flip the wave vertically */
 }
 
@@ -70,7 +70,7 @@ header img {
     left: 0;
     width: 100%;
     height: 210px; /* Adjust the height of the wave */
-    background: url('../svg/wave-test.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
+    background: url('../svg/wave-anim.svg') repeat-x; /* Replace 'wave.svg' with the path to your wave SVG file */
     transform: scaleY(-1); /* Flip the wave vertically */
     opacity: 30%;
 }
@@ -95,7 +95,7 @@ header img {
     /*transform: scaleY(-1); /* Flip the wave vertically */
 }
 
-button {
+input[type=submit] {
     background-color: #b3fc64; /* Set your desired background color */
     color: rgb(0, 0, 0);
     padding: 10px 20px;
@@ -105,12 +105,13 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+input[type=submit]:hover {
     background-color: #45a049; /* Set your desired darker color for hover */
 }
 
 nav {
     display: flex;
+    padding-right: 27%;
 }
 
 nav a {
@@ -147,6 +148,16 @@ nav a:hover {
     color: black;
 }
 
+.dropbtn:after {
+    content: '';
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    transform: rotate(45deg);
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -178,17 +189,27 @@ section {
     padding: 20px;
 }
 
+.news-section {
+    background: linear-gradient(45deg, #85FF00 0%, #EEEDDC 65%); 
+    text-align: center;
+    position: relative;
+    padding-bottom: 190px;
+}
+
+.news-title {
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
 .news {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: linear-gradient(45deg, #85FF00 0%, #EEEDDC 65%); /* Set your desired colors */
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
     position: relative;
-    padding-top: 150px;
-    padding-bottom: 190px;
 }
 
 .news-item {
