@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buduję Domy Pasywne</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../img/bdpwhite.png"/>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buduję Domy Paywne</title>
-    <link rel="shortcut icon" type="image/x-icon" href="src/img/bdpwhite.png"/>
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    
-    <header>
-        <a href="index.html"><img src="src/img/bdpwhite.png" alt="Logo"></a>
-        <nav>
-            <a href="news.html">Aktualności</a>
+        <header>
+            <a href="../../index.html"><img src="../img/bdpwhite.png" alt="Logo"></a>
+            <nav>
+            <a href="../../news.html">Aktualności</a>
             <div class="dropdown">
                 <button class="dropbtn">Firma</button>
                 <div class="dropdown-content">
@@ -58,28 +56,36 @@
             </div>
             <a href="#contact">Kontakt</a>
         </nav>
-        <div class="callus">
+         <div class="callus">
             <p>Chcesz się dowiedzieć więcej?</p>
             <p>Zadzwoń: 790 210 215</p>
         </div>
-    </header>
+        </header>
+
+        <section id="news" class="news-section">
     
-    <section id="news" class="news-section">
         <div class="news-title">
-            <h1>Aktualności</h1>
+            <h1>Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”</h1>
         </div>
         <div class="news" id="news-container">
-            <!-- News items will be populated here dynamically -->
+            <div class="news-item-only">
+                <img src="../img/3.jpg" alt="Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”">
+                <div class="news-content">
+                    <h3>29 października 2023</h3>
+                    <p>Realizacja bramy zlicowanej z elewacją budynku w domu pasywnym w Żołędowie.</p>
+                </div>
+            </div>
         </div>
+
         <div class="wave-shape-contact2"></div>
         <div class="wave-shape-news"></div>
-    </section>
-
-    <footer>
+    
+        </section>
+        <footer>
         <div class="footer-content">
             <div class="wave-shape-footer"></div>
             <div class="footer-section-img">
-                <img src="src/img/bdpwhite.png" alt="Logo">
+                <img src="../img/bdpwhite.png" alt="Logo">
             </div>
             <div class="footer-section">
                 <a href="#" target="_blank">Aktualności</a>
@@ -98,42 +104,6 @@
             <p>&copy; 2024 Buduję Domy Pasywne</p>
         </div>
     </footer>
-
-</body>
-
-</html>
-
-<script>
-    // script.js
-
-document.addEventListener("DOMContentLoaded", function () {
-    // Fetch and parse the JSON data
-    fetch('news.json')
-        .then(response => response.json())
-        .then(data => {
-            // Reference to the news container
-            const newsContainer = document.getElementById('news-container');
-
-            // Loop through the data and create HTML elements for each news item
-            data.forEach(newsItem => {
-                const newsItemElement = document.createElement('div');
-                newsItemElement.className = 'news-item';
-
-                newsItemElement.innerHTML = `
-                    <img src="${newsItem.image}" alt="${newsItem.title}">
-                    <h3>${newsItem.date}</h3>
-                    <p>${newsItem.title}</p>
-                    <form action=${newsItem.link}>
-                        <input type="submit" value="Więcej" />
-                    </form>
-
-                `;
-
-                // Append the news item to the news container
-                newsContainer.appendChild(newsItemElement);
-            });
-        })
-        .catch(error => console.error('Error fetching news data:', error));
-});
-
-</script>
+    </body>
+    </html>
+    
