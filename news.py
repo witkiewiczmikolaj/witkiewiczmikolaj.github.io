@@ -81,6 +81,7 @@ for index, news_item in enumerate(news_data):
         <div class="news" id="news-container">
             <div class="news-item-only">
                 <img src="{news_item["image_news"]}" alt="{news_item["title"]}">
+                <p style="font-size: 19px;">&#x23F0;</p>
                 <div class="news-content">
                     <h3>{news_item["date"]}</h3>
                     <p>{news_item["description"]}</p>
