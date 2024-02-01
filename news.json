@@ -19,32 +19,32 @@
         "image": "src/img/3.jpg",
         "image_news": "../img/3.jpg",
         "date": "29 października 2023",
-        "title": "Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”",
-        "description": "Realizacja bramy zlicowanej z elewacją budynku w domu pasywnym w Żołędowie.",
-        "link": "src/news/news3.html"
+        "title": "Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?",
+        "description": "Bardzo modnym obecnie elementem wykończenia wnętrza domu, są ukryte listwy przypodłogowe. Inwestorzy, którzy podążają za obecną modą, muszą sobie zdawać sprawę, że jest to rozwiązanie, które ma istotny wpływ zarówno na budżet oraz harmonogram budowy. Zastosowanie listew wymusza odwrotną kolejność robót – aby styk podłogi i ściany był wykończony z odpowiednią precyzją, powinniśmy najpierw wykonać podłogi, co wiąże się z ich kosztownym zabezpieczeniem w czasie dalszych prac, Grubość listwy ukrytej wymusza wykonanie dwukrotnie grubszego tynku wewnętrznego, co oznacza wzrost kosztów o co najmniej kilkadziesiąt tysięcy złotych, Przygotowanie ściany do montażu listew oraz sam proces montażu listew ukrytych także nie należą do najtańszych czynności na budowie ( cena z reguły jest umowna), Grubszy tynk wymusza co najmniej dwa razy dłuższe osuszanie, co przy obecnych kosztach energii dodaje nam w budżecie dodatkowe kilka lub kilkanaście tysięcy złotych, Podświetlenie LED stosowane często w listwach ukrytych, to dodatkowe kilkanaście lub kilkadziesiąt tysięcy złotych, Do tej pory nie wspomniałem o koszcie samych listew, sięgającym w przypadku najdroższych listew aluminiowych kwoty prawie 200 zł / mb. Czy na pewno gra jest warta świeczki?",
+        "link": "src/news/news3static.html"
     },
     {
         "image": "src/img/4.jpg",
         "image_news": "../img/4.jpg",
-        "date": "29 października 2023",
-        "title": "Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”",
-        "description": "Realizacja bramy zlicowanej z elewacją budynku w domu pasywnym w Żołędowie.",
+        "date": "20 października 2023",
+        "title": "PDP – część 6",
+        "description": "Przedpokój w domu pasywnym. Lustro z podświetleniem LED zamontowane na ścianie z forniru kamiennego COPPER .",
         "link": "src/news/news4.html"
     },
     {
         "image": "src/img/5.jpg",
         "image_news": "../img/5.jpg",
-        "date": "29 października 2023",
-        "title": "Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”",
-        "description": "Realizacja bramy zlicowanej z elewacją budynku w domu pasywnym w Żołędowie.",
+        "date": "15 października 2023",
+        "title": "Zabezpieczenie zewnętrznej instalacji wodociągowej w okresie zimowym",
+        "description": "Przed zimą musimy pamiętać o zabezpieczeniu swojej zewnętrznej instalacji ogrodowej np. przy pomocy zaworu mrozoodpornego produkcji SCHELL.",
         "link": "src/news/news5.html"
     },
     {
         "image": "src/img/6.jpg",
         "image_news": "../img/6.jpg",
-        "date": "29 października 2023",
-        "title": "Ukryte listwy przypodłogowe – „czy gra jest warta świeczki?”",
-        "description": "Realizacja bramy zlicowanej z elewacją budynku w domu pasywnym w Żołędowie.",
+        "date": "8 października 2023",
+        "title": "Gromadzenie deszczówki – wymóg naszych czasów",
+        "description": "Coraz bardziej popularne, staje się świadome gospodarowanie wodą deszczową z terenu naszej działki. Do zatrzymania wody deszczowej możemy przygotować pojedynczy zbiornik o pojemności 10 do 12 m3 lub zespół zbiorników o łącznej pojemności 25 m3, jak na załączonym zdjęciu. Zgromadzoną wodę deszczową wykorzystujemy do podlewania naszych nasadzeń ogrodowych.",
         "link": "src/news/news6.html"
     }
 

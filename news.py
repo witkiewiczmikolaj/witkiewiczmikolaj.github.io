@@ -110,7 +110,7 @@ for index, news_item in enumerate(news_data):
             </div>
             <div class="footer-section">
                 <h3>Oberwuj nas!</h3>
-                <a href="#" target="_blank">Facebook</a>
+                <a href="https://www.facebook.com/Buduje-Domy-Pasywne-531664133565053/" target="_blank">Facebook</a>
             </div>
         </div>
         <div class="footer-bottom">
