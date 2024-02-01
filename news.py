@@ -99,7 +99,7 @@ for index, news_item in enumerate(news_data):
         <div class="footer-content">
             <div class="wave-shape-footer"></div>
             <div class="footer-section-img">
-                <img src="../img/bdpwhite.png" alt="Logo">
+                <a href="../../index.html"><img src="../img/bdpwhite.png" alt="Logo"></a>
             </div>
             <div class="footer-section">
                 <a href="#" target="_blank">Aktualności</a>
