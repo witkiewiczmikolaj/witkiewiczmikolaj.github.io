@@ -24,16 +24,16 @@ for index, news_item in enumerate(news_data):
             <div class="dropdown">
                 <button class="dropbtn">Firma</button>
                 <div class="dropdown-content">
-                    <a href="#service1">DLACZEGO MY?</a>
-                    <a href="#service2">MEDIA O NAS</a>
-                    <a href="#service3">NOWY EKSPERT</a>
+                    <a href="../../dlaczego-my.html">DLACZEGO MY?</a>
+                    <a href="../../media-o-nas.html">MEDIA O NAS</a>
+                    <a href="../../nowy-ekspert.html">NOWY EKSPERT</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Nasza oferta</button>
                 <div class="dropdown-content">
-                    <a href="#service1">BUDOWA DOMÓW NISKOENERGETYCZNYCH I PASYWNYCH</a>
-                    <a href="#service2">AUDYTY ENERGETYCZNE DOMÓW PRZED BUDOWĄ</a>
+                    <a href="../../budowa-domow-niskoenergetycznych-i-pasywnych.html">BUDOWA DOMÓW NISKOENERGETYCZNYCH I PASYWNYCH</a>
+                    <a href="../../audyty-energetyczne-domow-przed-budowa.html">AUDYTY ENERGETYCZNE DOMÓW PRZED BUDOWĄ</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -50,15 +50,15 @@ for index, news_item in enumerate(news_data):
             <div class="dropdown">
                 <button class="dropbtn">Dom pasywny w szczegółach</button>
                 <div class="dropdown-content">
-                    <a href="#service1">PASYWNA PŁYTA FUNDAMENTOWA</a>
-                    <a href="#service2">AKUMULACYJNA PŁYTA GRZEWCZA</a>
-                    <a href="#service3">"CIEPŁY" MONTAŻ OKIEN"</a>
-                    <a href="#service3">WIĘŹBA PREFABRYKOWANA</a>
-                    <a href="#service3">SYSTEM BSO</a>
-                    <a href="#service3">WENTYLACJA MECHANICZNA</a>
-                    <a href="#service3">OCIEPLENIE STROPODACHU</a>
-                    <a href="#service3">TERMOWIZJA</a>
-                    <a href="#service3">TEST SZCZELNOŚCI (BLOWER DOOR)</a>
+                    <a href="../../plyta-fundamentowa.html">PASYWNA PŁYTA FUNDAMENTOWA</a>
+                    <a href="../../plyta-grzewcza.html">AKUMULACYJNA PŁYTA GRZEWCZA</a>
+                    <a href="../../cieply-montaz-okien.html">"CIEPŁY" MONTAŻ OKIEN"</a>
+                    <a href="../../wiezba-prefabrykowana.html">WIĘŹBA PREFABRYKOWANA</a>
+                    <a href="../../system-bso.html">SYSTEM BSO</a>
+                    <a href="../../wentylacja-mechaniczna.html">WENTYLACJA MECHANICZNA</a>
+                    <a href="../../ocieplenie-stropodachu.html">OCIEPLENIE STROPODACHU</a>
+                    <a href="../../termowizja.html">TERMOWIZJA</a>
+                    <a href="../../test-szczelnosci.html">TEST SZCZELNOŚCI (BLOWER DOOR)</a>
                 </div>
             </div>
             <a href="#contact">Kontakt</a>
@@ -102,13 +102,13 @@ for index, news_item in enumerate(news_data):
                 <a href="index.html"><img src="src/img/bdpwhite.png" alt="Logo"></a>
             </div>
             <div class="footer-section">
-                <a href="news.html">Aktualności</a>
-                <a href="dlaczego-my.html">Dlaczego My?</a>
-                <a href="media-o-nas.html">Media o nas</a>
-                <a href="nowy-ekspert.html">Nowy ekspert</a>
-                <a href="budowa-domow-niskoenergetycznych-i-pasywnych.html">Budowa domów niskoenergetycznych i pasywnych</a>
-                <a href="audyty-energetyczne-domow-przed-budowa.html">Audyty energetyczne domów przed budową</a>
-                <a href="index.html#contact">Kontakt</a>
+                <a href="../../news.html">Aktualności</a>
+                <a href="../../dlaczego-my.html">Dlaczego My?</a>
+                <a href="../../media-o-nas.html">Media o nas</a>
+                <a href="../../nowy-ekspert.html">Nowy ekspert</a>
+                <a href="../../budowa-domow-niskoenergetycznych-i-pasywnych.html">Budowa domów niskoenergetycznych i pasywnych</a>
+                <a href="../../audyty-energetyczne-domow-przed-budowa.html">Audyty energetyczne domów przed budową</a>
+                <a href="../../index.html#contact">Kontakt</a>
             </div>
             <div class="footer-section">
                 <h3>Oberwuj nas!</h3>
